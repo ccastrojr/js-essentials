@@ -1,2 +1,2 @@
 # trainingprojects
-This's the projects that I does to learning something new or train my knowledges.
+These are the projects I do in order to learn something new or test my abilities.
