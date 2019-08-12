@@ -1,2 +1,2 @@
-# trainingprojects
-These are the projects I do in order to learn something new or test my abilities.
+# JS-Basics
+These are the projects I does to learn the javascripts essentials.
