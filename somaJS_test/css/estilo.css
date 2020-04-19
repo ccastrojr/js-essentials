@@ -1,0 +1,38 @@
+div#area {
+    font: normal 20px Arial;
+    background: #139913;
+    color: #ffffff;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+}
+
+div#area:hover {
+    background: #055e05;
+}
+
+body {
+    font: normal 15px Arial;
+    margin-top: 0px;
+    margin-left: 25px;
+    position: fixed;
+}
+
+h1 {
+    font: normal 30px Arial;
+    color: #2929a0;
+}
+
+#form-calculo {
+    font-weight: bold;
+    padding-right: 2px;
+}
+
+#form-calculo input {
+    margin: 5px 0px;
+}
+
+#res {
+    margin-top: 10px;
+}

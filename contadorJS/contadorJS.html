@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+        <title>Contador</title>
+    </head>
+    
+    <body>
+        <header id="cabecalho">
+            <h1>Contador</h1>
+        </header>
+
+        <section id="secaoMain">
+            <h2 id="tituloMain">Entre com as informações</h2>
+            <div id="entradaDados">
+                <form id="formContador">
+                    <p id="pInicio"> Início: 
+                        <input type="number" name="inicio" id="inicio">
+                    </p>
+    
+                    <p id="pFim"> Fim:
+                        <input type="number" name="fim" id="fim">
+                    </p>
+    
+                    <p id="pPasso"> Passo:
+                        <input type="number" name="passo" id="passo">
+                    </p>
+    
+                    <input type="button" value="Contar" id="btnContar">
+                </form>
+            </div>
+
+            <div id="saidaContagem">
+                <p id="tituloContador">Preparando a contagem...</p>
+                <p id="pContagem"></p>
+            </div>
+        </section>
+
+        <footer id="rodape">
+            <p>&copy; Cláudio Castro</p>
+        </footer>
+
+        <script src="scripts/script.js"></script>
+    </body>
+</html>

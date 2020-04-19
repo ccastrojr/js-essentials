@@ -1,0 +1,60 @@
+body {
+    background-color: #2359f0;
+    font: normal 13pt arial;
+}
+
+#cabecalho {
+    font-size: 18pt;
+    color: #ffffff;
+    text-align: center;
+}
+
+#verificador {
+    width: 45%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: auto;
+    padding: 1.5%;
+    box-shadow: 5px 5px 10px #1a1a1a;
+}
+
+#tituloVerificador {
+    font-size: 17pt;
+    color: #222222;
+    margin-top: -1%;
+    margin-left: -1%;
+    text-align: center; 
+}
+
+#imgResultado {
+    border-radius: 20px;
+    margin-top: -2%;
+    width: 85%;
+    height: 70%;
+    box-shadow: 3px 3px 7px #1a1a1a;
+}
+
+#resultado {
+    text-align: center;
+}
+
+#btnEnviar{
+    font-size: 10.5pt;
+}
+
+#acimaImg { 
+    margin-bottom: 5%;
+}
+
+#imgResultado {
+    border-radius: 20px;
+    width: 85%;
+    height: 70%;
+}
+
+#rodape {
+    color: #ffffff;
+    font-size: 13pt;
+    text-align: center;
+    font-style: italic;
+}

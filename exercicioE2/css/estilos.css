@@ -1,0 +1,38 @@
+body {
+    background-color: #181818;
+    font: normal 13.5pt Arial;
+}
+
+#cabecalho {
+    font-size: 17.5pt;
+    color: #ffffff;
+    text-align: center;
+}
+
+#secaoMain {
+    width: 45%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: auto;
+    padding: 1.5%;
+    box-shadow: 5px 5px 10px #131313;
+}
+
+#tituloMain {
+    font-size: 18pt;
+    color: #0f0f0f;
+    margin-top: -1%;
+    margin-left: -1%;
+    text-align: center;
+}
+
+#divResultado {
+    text-align: justify;
+}
+
+#rodape {
+    font-size: 12pt;
+    color: #ffffff;
+    text-align: center;
+    font-style: italic;
+}

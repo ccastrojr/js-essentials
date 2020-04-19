@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <link rel="stylesheet" type="text/css" href="css/estilo.css">
+        
+        <title>Somar Numeros</title>
+    </head>
+    <body>
+        <h1>Somando Valores</h1>
+        <form id="form-calculo">
+            Primeiro Número:<input type="number" name="txtN1" id="txtN1"> </br>
+            Segundo Número: <input type="number" name="txtN2" id="txtN2"> </br>
+
+            <input type="button" value="Enviar" id="btnSoma">
+        </form>
+
+        <p id="res">Resultado: </p>
+
+        <script>
+            var btnSoma = document.querySelector('#btnSoma');
+            
+            btnSoma.addEventListener('click', soma);
+            
+            function soma(){
+                var in1 = document.querySelector('#txtN1');
+                var in2 = document.querySelector('#txtN2');
+
+                var valN1 = Number(in1.value);
+                var valN2 = Number(in2.value);
+                
+                soma = valN1 + valN2;
+
+                res.innerHTML = `O resultado da soma de ${valN1} e ${valN2} é <strong>${soma}</strong>.`;
+            }
+        </script>
+    </body>
+</html>

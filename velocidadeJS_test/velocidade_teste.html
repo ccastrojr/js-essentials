@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <title>Ex008</title>
+    </head>
+
+    <body>
+        <h1>Sistema de Multas</h1>
+        <form>
+            <h2>Informe sua velocidade</h2>
+            Velocidade: <input type="number" name="txtVelocida" id="velocidade">
+            <input type="button" value="Enviar" id="btnEnviarMulta">
+        </form>
+
+        <p id="resultadoMulta"></p>
+
+        <script>
+            var btnMulta = document.querySelector('#btnEnviarMulta');
+            
+            btnMulta.addEventListener('click', verificaMulta);
+
+            function verificaMulta(){
+                var vel = Number(document.getElementById('velocidade').value);
+                var pResultado = document.getElementById('resultadoMulta');
+                
+                if(vel < 60){
+                    pResultado.innerText = 'Dentro do limite de velocidade.';
+                    pResultado.style.color = 'green';
+                }
+                else{
+                    pResultado.innerText = 'Limite de velocidade excedido. Multado!';
+                    pResultado.style.color = 'red';
+                }
+            }
+        </script>
+    </body>
+</html>

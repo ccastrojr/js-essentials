@@ -1,0 +1,51 @@
+body {
+    background-color: #2359f0;
+    font: normal 13.5pt arial;
+}
+
+#cabecalho {
+    font-size: 18pt;
+    color: #ffffff;
+    text-align: center;
+}
+
+#secaoMain {
+    width: 45%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: auto;
+    padding: 1.5%;
+    box-shadow: 5px 5px 10px #1a1a1a;
+}
+
+#tituloMain {
+    font-size: 17pt;
+    color: #222222;
+    margin-top: -1%;
+    margin-left: -1%;
+    text-align: center; 
+}
+
+#formContador{
+    margin-left: 5px;
+}
+
+#btnContar {
+    font-size: 10.5pt;
+}
+
+#pContador {
+    margin-bottom: 5px;
+    font-size: 12pt;
+}
+
+#pContagem {
+    text-align: justify;
+}
+
+#rodape {
+    color: #ffffff;
+    font-size: 13pt;
+    text-align: center;
+    font-style: italic;
+}

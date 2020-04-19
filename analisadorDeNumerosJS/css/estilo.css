@@ -1,0 +1,41 @@
+body {
+    background: #131313;
+    font: normal 13.5pt Arial;
+    color: #ffffff;
+}
+
+#cabecalho {
+    font-size: 15pt;
+    text-align: center;
+    text-shadow: 2px 2px 2px #000000;
+}
+
+#principal {
+    width: 45%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 5px 5px 10px #000000; 
+    padding: .5% 2%;
+    color: #141414;
+}
+
+#listaElementos {
+    margin-bottom: 15px;
+}
+
+#erro {
+    color: #e20c0c;
+    font-size: 10.5pt;
+}
+
+#teste {
+    margin-top: -11px;
+}
+
+#rodape {
+    text-align: center;
+    font-size: 13pt;
+    font-style: italic;
+    margin-top: 1%;
+}
